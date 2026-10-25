@@ -1,0 +1,25 @@
+# Proprietary input/output modules must never be committed.
+*.lrmodule
+*.lrmodule.*
+
+# Extracted Adobe resources, local tools, and build/test scratch data.
+_temp_/
+_temp_decomp_/
+_temp_work_/
+_tools_/
+_build_/
+*.LUA
+*.bin
+*.res
+*.log
+
+# Python/build artifacts.
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Local dependency installations.
+node_modules/
+.venv/

@@ -1,0 +1,4 @@
+# OpenStreetMap: disable Google reverse geocoding (address lookup).
+# The request fails immediately and Lightroom treats it as "UNKNOWN_ERROR".
+< https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDWXF_nF6oEO4gAhLxhTPnY7f5ebkPy1Ek&sensor=false
+> http://127.0.0.1:9/geocode-disabled?
